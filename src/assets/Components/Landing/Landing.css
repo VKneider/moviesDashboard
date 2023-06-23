@@ -1,0 +1,22 @@
+.movies{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    grid-gap: 20px;
+
+}
+
+.landing {
+    display: flex;
+    justify-content: center;
+  }
+
+.center{
+    text-align: center;
+}
+
+
+
+body{
+    background: linear-gradient(282deg, #16999c, #5c7ade);
+}
