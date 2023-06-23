@@ -48,8 +48,9 @@ export default function Landing() {
   return (
     <div >
       <h1 className="center">My Movies App</h1>
-      <p className="center">Search for your favorite movies and TV shows</p>
+      <p className="center">Discover the most recent movies </p>
       <div className="center" style={{'margin-bottom':20}}>
+        <h4>Actual Page number: {actualPage}</h4>
         <button  onClick={previousPage}>Next Page </button>
         <button  onClick={nextPage}>Next Page </button>
       </div>
