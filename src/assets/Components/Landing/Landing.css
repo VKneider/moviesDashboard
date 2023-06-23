@@ -6,6 +6,14 @@
 
 }
 
+@media screen and (max-width: 1800px) {
+    .movies {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+    
+
+
 .landing {
     display: flex;
     justify-content: center;
